@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>You have been logged out.</title>
+<script>
+window.location.hash="no-back-button";
+window.location.hash="Again-No-back-button";//again because google chrome don't insert first hash into history
+window.onhashchange=function(){window.location.hash="no-back-button";}
+</script>
+	
+	<link href="resources/css/plugins/bootstrap.css" rel="stylesheet">
+    <link href="resources/css/template.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+	<link href="resources/fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+    
+</head>
+<body>
+	<section id ="log-out">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-4"></div>
+			<div class="col-xs-4 text-center">
+				<div class="alert alert-info text-left" role="alert"></div>
+      				<h3><i class="fa fa-lock">&nbsp; </i> 404.html-Url Not Found.</h3>
+			</div>
+			<div class="col-xs-4"></div>
+		</div>
+	</div>
+	</section>
+</body>
+</html>
